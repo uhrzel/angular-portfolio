@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row gap-1">
+      <nav class="row gap-1">
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+        <a routerLink="/about-us" routerLinkActive="active">About</a>
+        <a routerLink="/projects" routerLinkActive="active">Projects</a>
+      </nav>
+    </div>
+  </body>
+</html>
